@@ -85,14 +85,14 @@ Good:
 File name: **some_widget.dart**
 
 ```dart
-class _SomeOtherWidget extends StatelessWidget {
+class SomeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //...
   }
 }
 
-class SomeWidget extends StatelessWidget {
+class _SomeOtherWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //...
